@@ -1,0 +1,11 @@
+{
+  "author": "Tom Mac",
+  "name": "myNodeRedis",
+  "version": "0.3.2",
+  "homepage": "",
+  "dependencies": {
+    "redis": "~0.10.3",
+    "socketio": "1.0.0",
+    "express": "4.16.1"
+  }
+}
