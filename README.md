@@ -7,8 +7,8 @@ Sample chat app integrating socket io and redis pub sub with Node Js
 3. go to http://localhost:3000
 4. start chatting
 5. make an announcement via redis-cli
-   a. redis-cli> publish announcements something
-   b. see this msg on the chat
+  1. redis-cli> publish announcements something
+  2. see this msg on the chat
 
 
 ## References
