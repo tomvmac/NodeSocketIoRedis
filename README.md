@@ -3,7 +3,7 @@ Sample chat app integrating socket io and redis pub sub with Node Js
 
 ## Getting Started
 1. npm install on main folder
-2. node server.js
+2. npm start or node server.js
 3. go to http://localhost:3000
 4. start chatting
 5. make an announcement via redis-cli

@@ -15,9 +15,9 @@ io.on('connection', function (socket) {
         console.log('user disconnected');
     });
 
-    socket.on('chat message', function (msg) {
+    socket.on('chatevent', function (msg) {
         console.log('message: ' + msg);
-        io.emit('chat message', msg);
+        io.emit('chatevent', msg);
     });
 
     socket.on('announcements', function (msg) {
